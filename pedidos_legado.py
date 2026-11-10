@@ -54,7 +54,7 @@ def proc(cli, itens, cupom, pg):
 
     # descontos
     if r[1] == "VIP":
-        tot = tot - tot * 0.12
+        tot = tot - tot * 0.15
     elif r[1] == "ATC":
         if tot > 1000:
             tot = tot - tot * 0.15
