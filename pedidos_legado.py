@@ -62,7 +62,7 @@ def proc(cli, itens, cupom, pg):
         tot = tot - tot * 0.05
     elif cupom == "BEMVINDO":
         if tot > 100:
-            tot = tot - 20
+            tot = tot - 30
 
     # frete
     if tot < 200:
